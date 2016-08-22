@@ -7,7 +7,7 @@ service can upgrade back and repair app version
 1.2	适用范围：
 	多个交易客户端
   
-2 升级服务模块及配置介绍：
+2 	升级服务模块及配置介绍：
 升级服务分为服务端和客户端两部分
   
 2.1	升级服务端介绍及配置
@@ -25,7 +25,7 @@ service can upgrade back and repair app version
     port: 6000  # 升级服务程序启动的端口
     root_dir: 'D:\project\pythonProject\client'  # 存放需要发布的交易客户端路径
     
-2.3升级服务客户端中的配置文件介绍
+2.3	升级服务客户端中的配置文件介绍
   升级客户端配置文件(修改升级服务端ip即可)：
     app_file_name: 'client_info.yaml'  # 客户端应用所在的根目录
     remote:
