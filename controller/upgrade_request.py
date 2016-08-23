@@ -12,8 +12,6 @@ from upgrade_service import UpgradeService
 
 logger = LogManager.register_log("upgrade_request")
 
-app = Flask(__name__)
-
 __author__ = 'syc'
 
 
